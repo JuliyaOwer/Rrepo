@@ -2,8 +2,11 @@
 title: "RMarkdown и типы анализа"
 author: "Юлия Оверченко"
 output:
+  pdf_document: 
+    latex_engine: xelatex
+    includes: 
+      in_header: "pre.tex"
   html_document: default
-  pdf_document: default
 bibliography: source.bib
 ---
 
